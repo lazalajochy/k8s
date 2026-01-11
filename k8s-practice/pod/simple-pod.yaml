@@ -1,10 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: read-web-app
+  name: react-web-app
+  labels:
+    app: react-web-app
 spec:
   containers:
   - name: react-web-app
-    image: front-test
+    image: front-test:v1
     ports:
     - containerPort: 80
