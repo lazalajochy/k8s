@@ -28,6 +28,7 @@
 ---
 
 ## <a name="arquitectura"></a>1. Arquitectura de Kubernetes
+<img width="1344" height="768" alt="Gemini_Generated_Image_vgiexpvgiexpvgie" src="https://github.com/user-attachments/assets/b34d7056-34fb-484b-a56b-d6722289d093" />
 
 ### Descripción
 Kubernetes es un sistema de orquestación de contenedores con arquitectura maestro-worker.
