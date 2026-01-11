@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: react-web-app
+  namespace: desarrollo
+  labels:
+    app: react-web-app
+spec:
+  containers:
+  - name: react-web-app
+    image: front-test:v1
+    ports:
+    - containerPort: 80
